@@ -1,0 +1,9 @@
+.images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.homelander-image {
+  border: 10px solid blue;
+  width: 500px;
+}
