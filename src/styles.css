@@ -1,6 +1,5 @@
 .images {
   display: flex;
-  gap: 75px;
   justify-content: space-evenly;
 }
 
@@ -14,11 +13,17 @@
   border: 10px solid blue;
 }
 
-.middle {
-  text-align: center;
+.deep-image {
+  width: 500px;
+  border: 10px solid blue;
 }
 
-.deep-image {
-  width: fit-content;
+.sb-image {
+  width: 500px;
   border: 10px solid blue;
+}
+
+.middle {
+  align-items: center;
+  text-align: center;
 }
