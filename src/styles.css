@@ -27,3 +27,14 @@
   align-items: center;
   text-align: center;
 }
+
+.header {
+  background-color: #1f2937;
+  color: white;
+}
+
+.quote {
+  text-align: center;
+  font-size: 36px;
+  font: light italic #1f2937;
+}
