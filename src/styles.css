@@ -1,9 +1,24 @@
 .images {
   display: flex;
-  justify-content: space-between;
+  gap: 75px;
+  justify-content: space-evenly;
 }
 
 .homelander-image {
   border: 10px solid blue;
   width: 500px;
+}
+
+.butcher-image {
+  width: 500px;
+  border: 10px solid blue;
+}
+
+.middle {
+  text-align: center;
+}
+
+.deep-image {
+  width: fit-content;
+  border: 10px solid blue;
 }
