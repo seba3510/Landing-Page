@@ -36,5 +36,22 @@
 .quote {
   text-align: center;
   font-size: 36px;
-  font: light italic #1f2937;
+}
+
+.footer {
+  align-items: center;
+  text-align: center;
+  border: 49px;
+  border-radius: 20px;
+  background-color: blue;
+}
+
+.footer-text {
+  font-size: 30px;
+  font: bold;
+}
+
+.footer-btn {
+  text-align: center;
+  font-size: xx-large;
 }
