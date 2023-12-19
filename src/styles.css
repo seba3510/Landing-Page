@@ -31,6 +31,7 @@
 .header {
   background-color: #1f2937;
   color: white;
+  display: flex;
 }
 
 .quote {
@@ -56,17 +57,36 @@
   font-size: xx-large;
 }
 
-.links {
-  display: flex;
-  justify-content: flex-end;
-  gap: 30px;
-  font-size: large;
-}
-
 .title-subtext {
   font-size: 20px;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  margin-left: 45px;
+}
+
+.container-2 {
+  display: flex;
+}
+
+.placeholder {
+  display: flex;
+  justify-content: center;
+}
+
 .placeholder-img {
-  align-content: end;
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 500px;
 }
