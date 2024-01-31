@@ -22,7 +22,7 @@ header {
 }
 
 .card {
-  border: 2px solid red;
+  border: 2px solid purple;
   background-color: #1F2937;
   padding-top: 75px;
 
@@ -32,6 +32,11 @@ header {
 
 
 .main-text {
-  border: 2px solid green;
-  padding-left: 250 px;
+  padding-left: 250px;
+}
+
+
+sub>p {
+  padding-top: 15px;
+  padding-left: 250px;
 }
