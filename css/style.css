@@ -96,4 +96,26 @@ sub {
 
 .title {
   text-align: center;
+  margin-top: 45px;
+}
+
+
+
+
+
+.image-one img,
+.image-two img,
+.image-three img,
+.image-four img {
+
+  border: 5px solid blue;
+  height: 250px;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 50px;
 }
