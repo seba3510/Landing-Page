@@ -29,8 +29,7 @@ a {
 
 .card {
   background-color: #1F2937;
-  padding-top: 75px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 
 
 
@@ -89,6 +88,12 @@ sub {
   margin-right: 500px;
 }
 
+
+
+div.logo>img {
+  height: 35%;
+  width: auto;
+}
 
 /*======================BODY=======================================================*/
 
