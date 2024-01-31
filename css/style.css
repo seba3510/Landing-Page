@@ -7,14 +7,17 @@ header {
   display: flex;
   justify-content: space-around;
   background-color: #1F2937;
-  color: white;
-
 
 
 }
 
+header .logo {
+  color: white;
+}
 
-
+a {
+  color: white;
+}
 
 .links {
 
@@ -22,26 +25,21 @@ header {
   list-style: none;
   gap: 25px;
 
-
 }
 
 .card {
   background-color: #1F2937;
   padding-top: 75px;
   padding-bottom: 100px;
-  color: white;
 
 
 
-}
-
-a {
-  color: white;
 }
 
 
 .main-text {
   padding-left: 250px;
+  color: white;
 }
 
 
@@ -49,6 +47,7 @@ a {
 sub {
   display: flex;
   justify-content: space-around;
+  color: white;
 
 }
 
@@ -62,8 +61,7 @@ sub>p {
   background-color: gray;
   text-align: center;
   padding: 80px;
-  /* margin:  */
-  /* position: relative; */
+  color: white;
 
 }
 
