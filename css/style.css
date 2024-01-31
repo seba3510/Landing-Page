@@ -119,3 +119,9 @@ sub {
   justify-content: space-evenly;
   padding-top: 50px;
 }
+
+
+
+.info p {
+  font-size: small;
+}
