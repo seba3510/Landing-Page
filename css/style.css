@@ -130,7 +130,7 @@ sub {
 
 .quote-container {
   text-align: center;
-  padding-top: 100px;
+  padding-top: 50px;
   margin: 100px;
   font-size: 36px;
   font-weight: light italic;
@@ -161,6 +161,7 @@ sub {
 .action-container h3 {
   margin-left: 475px;
   color: white;
+
 }
 
 
@@ -174,4 +175,14 @@ sub {
   border-radius: 5px;
   width: 90px;
   height: 25px;
+}
+
+
+/*==========footer===================*/
+
+footer {
+  background-color: #1F2937;
+  text-align: center;
+  color: white;
+  padding: 15px;
 }
