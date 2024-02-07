@@ -6,8 +6,7 @@
 header {
 
   background-color: #1F2937;
-
-
+  padding-bottom: 0%;
 }
 
 header .logo {
@@ -26,29 +25,6 @@ a {
 
 }
 
-.card .right {
-  margin-top: 100px;
-}
-
-.card-img {
-  height: 250px;
-}
-
-.subtext {
-  display: flex;
-  ;
-}
-
-
-.card-img-container {
-  display: flex;
-  justify-content: flex-end;
-  margin-left: 200px;
-  margin-bottom: 100px;
-}
-
-
-
 
 
 
@@ -60,24 +36,53 @@ div.logo>img {
   width: auto;
 }
 
-.top {
+
+.header-top {
   display: flex;
   justify-content: space-around;
 }
+
+
+div.logo {
+  height: 250px;
+}
+
+
+.card {
+  display: flex;
+
+}
+
+
+.card-left {
+  margin-left: 400px;
+}
+
+
+.card-right img {
+  height: 250px;
+  margin-left: 200px;
+  margin-bottom: 100px;
+}
+
+
+.card-left button {
+  background-color: #3882F6;
+  margin-top: 15px;
+  color: white;
+  border-radius: 5px;
+  width: 90px;
+  height: 25px;
+}
+
+
 
 /*============CARD===========================================*/
 
 
 
-.card {
-  border: 2px solid red;
 
-}
 
-.left {
-  margin-left: 100px;
-  margin-bottom: 50px;
-}
 
 
 
