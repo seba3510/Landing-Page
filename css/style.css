@@ -26,6 +26,26 @@ a {
 
 }
 
+.card .right {
+  margin-top: 100px;
+}
+
+.card-img {
+  height: 250px;
+}
+
+.subtext {
+  display: flex;
+  ;
+}
+
+
+.card-img-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 200px;
+  margin-bottom: 100px;
+}
 
 
 
@@ -40,10 +60,24 @@ div.logo>img {
   width: auto;
 }
 
+.top {
+  display: flex;
+  justify-content: space-around;
+}
 
 /*============CARD===========================================*/
 
 
+
+.card {
+  border: 2px solid red;
+
+}
+
+.left {
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
 
 
 
@@ -62,7 +96,6 @@ div.logo>img {
 
 
 .main-text {
-  border: 2px solid purple;
   color: white;
   padding-bottom: 50px;
 }
