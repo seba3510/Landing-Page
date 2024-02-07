@@ -13,6 +13,8 @@ header .logo {
   color: white;
 }
 
+
+
 a {
   color: white;
 }
@@ -50,6 +52,7 @@ div.logo {
 
 .card {
   display: flex;
+  color: white;
 
 }
 
@@ -98,6 +101,13 @@ div.logo {
 
 
 
+.right-side {
+  margin-top: 29.6px;
+}
+
+.left-side {
+  margin-left: 200px;
+}
 
 
 .main-text {
@@ -153,30 +163,30 @@ div.logo {
 }
 
 
+
+
+
 .action-container {
-  background-color: blue;
-  border-radius: 8px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  margin: 100px;
-
-
-
-}
-
-
-.action-container h3 {
-  margin-left: 475px;
+  background-color: #3882F6;
+  display: flex;
+  margin: 50px;
+  padding: 50px;
+  border-radius: 15px;
   color: white;
+}
 
+.action-container .left-side {
+  margin-right: 200px;
+}
+
+.action-title,
+.action-subtext {
+  margin-left: 300px;
 }
 
 
-.action-container sub {
-  margin-right: 350px;
-}
 
-.action-button {
+.action-btn {
   background-color: #3882F6;
   color: white;
   border-radius: 5px;
@@ -184,6 +194,11 @@ div.logo {
   height: 25px;
 }
 
+
+
+q {
+  font-weight: italic;
+}
 
 /*==========footer===================*/
 
